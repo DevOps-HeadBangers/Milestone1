@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ `git rev-parse --abbrev-ref HEAD` == "development" ]; then
+   curl http://localhost:8080/jenkins/job/Milestone1-dev/build
+elif [ `git rev-parse --abbrev-ref HEAD` == "release" ]; then
+   curl http://localhost:8080/jenkins/job/Milestone1-rel/build
+fi
