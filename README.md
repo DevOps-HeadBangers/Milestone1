@@ -80,7 +80,7 @@ Whenever a new commit is made to a particular branch of the repo, post-commit ho
 curl http://localhost:8080/jenkins/job/<jenkins_job_name>/build
 
 ```
-![Capability 1](https://github.com/rarora4/HW/blob/master/Screencast/Curl.gif) 
+![Capability 1](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/Curl.gif) 
 
 ##### The ability to execute a build job via a script or build manager (e.g., shell, maven), which ensures a clean build each time.
 
@@ -94,7 +94,7 @@ npm test
 
 Now, go back to the job page and click Build Now in the left pane.
 
-![Capability 1](https://github.com/rarora4/HW/blob/master/Screencast/Script.gif) 
+![Capability 2](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/Script.gif) 
 
 ##### The ability to determine failure or success of a build job, and as a result trigger an external event (run post-build task, send email, etc).
 
@@ -102,12 +102,11 @@ Now, go back to the job page and click Build Now in the left pane.
 
 2. Now, when you build you will get the email notification for the corresponding build.
 
-![Capability 1](https://github.com/rarora4/HW/blob/master/Screencast/Email.gif) 
+![Capability 3](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/Email.gif) 
 
 ##### The ability to have multiple jobs corresponding to multiple branches in a repository. Specifically, a commit to a branch, release, will trigger a release build job. A commit to a branch, dev, will trigger a dev build job.
 
-1. Checkout the branch for which you want to build.
-
+1. Checkout the branch for which you want to build
 2. Keep the following code in the post-commit hook of the repo. Provide Executable (+x) permissions to the post-commit hook. Replace the  <branch_name>'s with the branch names     for your repo.
 
 ```
