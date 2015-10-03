@@ -129,7 +129,7 @@ The http request for the capability:
 ```
 http://localhost:8080/jenkins/job/<jenkins_job_name>/api/json?pretty=true
 ```
-![Capability 3](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/History.gif)
+![Capability 5](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/History.gif)
 Sample output:
 
 ```
