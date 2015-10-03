@@ -102,7 +102,6 @@ Now, go back to the job page and click Build Now in the left pane.
 
 2. Now, when you build you will get the email notification for the corresponding build.
 
-![Capability 1](https://github.com/rarora4/HW/blob/master/Screencast/Email.gif) 
 
 ##### The ability to have multiple jobs corresponding to multiple branches in a repository. Specifically, a commit to a branch, release, will trigger a release build job. A commit to a branch, dev, will trigger a dev build job.
 
