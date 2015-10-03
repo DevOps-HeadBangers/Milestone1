@@ -91,6 +91,8 @@ npm install
 npm test
 ```
 
+![Capability 1](https://github.com/rarora4/HW/blob/master/Screencast/Curl.gif) 
+
 Now, go back to the job page and click Build Now in the left pane.
 
 ##### The ability to determine failure or success of a build job, and as a result trigger an external event (run post-build task, send email, etc).
@@ -98,6 +100,7 @@ Now, go back to the job page and click Build Now in the left pane.
 1. Go the Configure page of your job. Under Post-build Actions, click on Post Build Action and choose Editable Email    Notification and configure it based on your needs.
 
 2. Now, when you build you will get the email notification for the corresponding build.
+
 
 ##### The ability to have multiple jobs corresponding to multiple branches in a repository. Specifically, a commit to a branch, release, will trigger a release build job. A commit to a branch, dev, will trigger a dev build job.
 
