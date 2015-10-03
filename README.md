@@ -121,13 +121,15 @@ fi
 
 Now, when you commit to the branch, the corresponding job will build based on the conditions in the post-commit     hook. 
 
+![Capability 4](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/Branch.gif) 
+
 ##### The ability to track and display a history of past builds (a simple list works) via http 
 
 The http request for the capability:
 ```
 http://localhost:8080/jenkins/job/<jenkins_job_name>/api/json?pretty=true
 ```
-
+![Capability 3](https://github.com/DevOps-HeadBangers/Milestone1/blob/master/Screencast/History.gif)
 Sample output:
 
 ```
